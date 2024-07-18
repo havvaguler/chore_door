@@ -1,0 +1,118 @@
+body {
+    background-color: #010165;
+    margin: 0px;
+}
+
+#header {
+    height: 66px;
+    background: #0ff url("https://content.codecademy.com/projects/chore-door/images/logo.svg") center no-repeat;
+}
+
+.title-row {
+    margin: 42px 0 21px 0;
+    text-align: center;
+}
+
+.instructions-title {
+    font-family: 'Work Sans';
+    font-size: 18px;
+    color: #0ff;
+}
+
+.instructions-title::before,
+.instructions-title::after {
+    content: url("https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg");
+    margin: 0 0.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.instructions-row {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.instructions-number {
+    padding-right: 25px;
+    font-family: 'Work Sans';
+    font-size: 36px;
+    color: #0ff;
+}
+
+.instructions-text {
+    padding: 10px;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    color: #fff;
+}
+
+.door-row {
+    text-align: center;
+}
+
+.door-frame {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.start-row {
+    margin: auto;
+    width: 120px;
+    height: 43px;
+    background-color: #eb6536;
+    padding-top: 18px;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    text-align: center;
+    color: #010165;
+    margin-bottom: 9px;
+    cursor: pointer;
+}
+
+.current-streak {
+    background-color: #0ff;
+    width: 80px;
+    height: 80px;
+    font-weight: bolder;
+    font-size: 42px;
+    text-align: center;
+    margin: auto;
+}
+
+.current p {
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.best-streak {
+    background-color: #0ff;
+    width: 80px;
+    height: 80px;
+    font-weight: bolder;
+    font-size: 42px;
+    text-align: center;
+    margin: auto;
+}
+
+.best p {
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
